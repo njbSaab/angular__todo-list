@@ -49,7 +49,7 @@ export class TestData{
       id:4,
       title:'go to nature',
       priority: TestData.priorities[0],
-      completed: false,
+      completed: true,
       category:TestData.categories[2],
       date: new Date('2023-04-16')
     },
@@ -57,7 +57,7 @@ export class TestData{
       id:5,
       title:'go to restaurant with girlfriend',
       priority: TestData.priorities[0],
-      completed: false,
+      completed: true,
     },
     {
       id:6,
@@ -75,8 +75,29 @@ export class TestData{
       id:8,
       title:'go to bich',
       priority: TestData.priorities[3],
+      completed: true,
+      date: new Date('2023-06-01')
+    },
+    {
+      id:9,
+      title:'Buy car',
+      priority: TestData.priorities[3],
       completed: false,
       date: new Date('2023-06-01')
+    },
+    {
+      id:10,
+      title:'find well girl',
+      priority: TestData.priorities[2],
+      completed: false,
+      date: new Date('2023-08-01')
+    },
+    {
+      id:11,
+      title:'find work developer on Angular',
+      priority: TestData.priorities[3],
+      completed: false,
+      date: new Date('2023-09-01')
     },
   ]
 
